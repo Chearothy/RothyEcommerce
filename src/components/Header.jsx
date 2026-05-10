@@ -17,11 +17,6 @@ function Header() {
                 <div className='text-2xl font-bold text-primary'>
                     <h2>
                         <span className='text-red-500'>E</span>commerce
-
-
-
-
-
                     </h2>
                 </div>
                 <ul className='flex gap-4 max-sm:hidden '>
