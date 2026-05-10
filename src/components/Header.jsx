@@ -4,7 +4,7 @@ function Header() {
     const [isactive, setIsActive] = useState(false)
     return (
         <>
-            <header className='flex justify-between items-center px-[20px] bg-[#ffffff] border-b-[1px] border-gray-300 lg:px-40'>
+            <header className='flex justify-between items-center px-\[20px\] bg-[#ffffff] border-b-\[1px\] border-gray-300 lg:px-40'>
                 <div className='hidden max-sm:block '>
                     <button onClick={() => setIsActive(true)} className='flex gap-4' >
 
@@ -49,9 +49,9 @@ function Header() {
                 </div>
             </header>
             <header
-                className={`${isactive ? 'left-0' : '-left-full' } fixed top-0 h-screen w-[260px] z-50 pt-9 p-4 bg-third text-white transition-all duration-300 sm:hidden`} >
+                className={`${isactive ? 'left-0' : '-left-full' } fixed top-0 h-screen w-\[260px\] z-50 pt-9 p-4 bg-third text-white transition-all duration-300 sm:hidden`} >
                 <div className="flex justify-end  ">
-                    <button onClick={() => setIsActive(false)} className='border-1 border-white border-dashed rounded-full p-2 '>
+                    <button onClick={() => setIsActive(false)} className='border border-white border-dashed rounded-full p-2 '>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                         </svg>

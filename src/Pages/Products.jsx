@@ -1,4 +1,3 @@
-
 import Card from '../Components/Card.jsx';
 import { useParams } from 'react-router-dom';
 import useGetAllProduct from '../Hooks/useGetAllProduct.js';

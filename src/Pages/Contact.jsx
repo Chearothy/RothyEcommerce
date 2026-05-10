@@ -54,7 +54,7 @@ function Contact() {
 
           <textarea
             placeholder="Enter your message"
-            className="w-full h-32 p-3 border p-2 border-gray-200 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-black"
+            className="w-full h-32 border p-2 border-gray-200 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-black"
           ></textarea>
         </div>
     
