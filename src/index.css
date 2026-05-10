@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Font families */
+  --font-sans: "Kantumruy Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-handwriting: "Freehand", cursive;
+
+  /* Colors */
+  --color-primary: #3490dc;
+  --color-secondary: #ffed4a;
+  --color-third: #e3342f;
+}
