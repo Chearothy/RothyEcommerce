@@ -1,8 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import TopBar from '../components/TopBar.jsx'
-import Header from '../components/Header.jsx'
-import Footer from '../components/footer.jsx'
+import TopBar from '../Components/TopBar.jsx'
+import Header from '../Components/Header.jsx'
+import Footer from '../Components/Footer.jsx'
 function Rootlayout() {
   return (
     <>

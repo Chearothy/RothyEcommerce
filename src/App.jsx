@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import Rootlayout from './layouts/Rootlayout.jsx';
-import Home from './page/Home.jsx';
+import Rootlayout from './Layouts/Rootlayout.jsx';
+import Home from './Pages/Home.jsx';
 import './index.css';
-import Products from './page/Products.jsx';
-import About from './page/About.jsx';
-import Contact from './page/Contact.jsx';
-import ProductsDetail from './page/ProductsDetail.jsx';
+import Products from './Pages/Products.jsx';
+import About from './Pages/About.jsx';
+import Contact from './Pages/Contact.jsx';
+import ProductsDetail from './Pages/ProductsDetail.jsx';
 function App() {
   return (
     <BrowserRouter>
