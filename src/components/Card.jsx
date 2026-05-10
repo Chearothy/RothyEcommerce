@@ -9,7 +9,7 @@ function Card(props) {
       </div>
        <div className="p-4">
         <div>
-          <h3 className="mt-1 text-sm text-gray-700tex uppercase line-clamp-1">{data.title}</h3></div>
+          <h3 className="mt-1 text-sm text-gray-700 uppercase line-clamp-1">{data.title}</h3></div>
         <div>
           <p className="mt-1 text-lg font-medium text-red-500">${data.price}</p>
         </div>
