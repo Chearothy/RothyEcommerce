@@ -1,6 +1,6 @@
 import Card from '../components/Card.jsx';
 import { useParams } from 'react-router-dom';
-import useGetAllProduct from '../Hooks/useGetAllProduct.js';
+import useGetAllProduct from '../Hooks/useGetAllProduct.jsx';
 function Products() {
   const { data, isLoading } = useGetAllProduct();
   return (
