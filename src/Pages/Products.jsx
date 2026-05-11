@@ -1,4 +1,4 @@
-import Card from '../Components/Card.jsx';
+import Card from '../components/Card.jsx';
 import { useParams } from 'react-router-dom';
 import useGetAllProduct from '../Hooks/useGetAllProduct.js';
 function Products() {
