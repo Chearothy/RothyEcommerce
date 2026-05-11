@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Card from "../Components/Card";
+import Card from "../Components/Card.jsx";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 function Home() {

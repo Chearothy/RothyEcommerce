@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
-import useGetOneProduct from '../Hooks/useGetOneProduct';
+import useGetOneProduct from '../Hooks/useGetOneProduct.jsx';
 function ProductsDetail() {
     const { data, isLoading } = useGetOneProduct(useParams().id);
     const route = useParams();
