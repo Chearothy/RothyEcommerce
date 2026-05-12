@@ -4,7 +4,7 @@ function Header() {
     const [isactive, setIsActive] = useState(false)
     return (
         <>
-            <header className='flex justify-between items-center px-[40px] bg-[#ffffff] border-b-[10px] bg-green-200 border-gray-300 lg:px-40'>
+            <header className='flex justify-between items-center px-[40px] bg-[#ffffff] border-b-[2px] border-gray-300 lg:px-40'>
                 <div className='hidden max-sm:block '>
                     <button onClick={() => setIsActive(true)} className='flex gap-4' >
 
